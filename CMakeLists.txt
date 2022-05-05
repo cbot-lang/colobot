@@ -12,11 +12,11 @@ project(colobot C CXX)
 ##
 set(COLOBOT_VERSION_CODENAME "Gold")
 set(COLOBOT_VERSION_MAJOR    22)
-set(COLOBOT_VERSION_MINOR    05)
-set(COLOBOT_VERSION_REVISION 05)
+set(COLOBOT_VERSION_MINOR    5)
+set(COLOBOT_VERSION_REVISION 5)
 
 # Used on official releases
-set(COLOBOT_VERSION_RELEASE_CODENAME "dla miret.pl by AZ")
+set(COLOBOT_VERSION_RELEASE_CODENAME " dla miret.pl")
 # Used on unreleased, development builds
 # set(COLOBOT_VERSION_UNRELEASED ".0")
 
