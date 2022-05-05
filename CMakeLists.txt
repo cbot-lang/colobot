@@ -11,14 +11,14 @@ project(colobot C CXX)
 # Project version
 ##
 set(COLOBOT_VERSION_CODENAME "Gold")
-set(COLOBOT_VERSION_MAJOR    0)
-set(COLOBOT_VERSION_MINOR    2)
-set(COLOBOT_VERSION_REVISION 0)
+set(COLOBOT_VERSION_MAJOR    22)
+set(COLOBOT_VERSION_MINOR    05)
+set(COLOBOT_VERSION_REVISION 05)
 
 # Used on official releases
-set(COLOBOT_VERSION_RELEASE_CODENAME "-alpha")
+set(COLOBOT_VERSION_RELEASE_CODENAME "dla miret.pl by AZ")
 # Used on unreleased, development builds
-#set(COLOBOT_VERSION_UNRELEASED "+alpha")
+set(COLOBOT_VERSION_UNRELEASED ".0")
 
 # Append git characteristics to version
 if(DEFINED COLOBOT_VERSION_UNRELEASED)
