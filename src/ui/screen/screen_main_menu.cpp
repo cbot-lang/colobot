@@ -119,6 +119,8 @@ void CScreenMainMenu::CreateInterface()
     pb = pw->CreateButton(pos, ddim, -1, EVENT_INTERFACE_DEFI);
     pb->SetState(STATE_SHADOW);
 
+    // this could be disabled?
+    
     pos.y = oy+sy*6.8f;
     pb = pw->CreateButton(pos, ddim, -1, EVENT_INTERFACE_CODE_BATTLES);
     pb->SetState(STATE_SHADOW);
