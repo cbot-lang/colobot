@@ -18,7 +18,7 @@ set(COLOBOT_VERSION_REVISION 05)
 # Used on official releases
 set(COLOBOT_VERSION_RELEASE_CODENAME "dla miret.pl by AZ")
 # Used on unreleased, development builds
-set(COLOBOT_VERSION_UNRELEASED ".0")
+# set(COLOBOT_VERSION_UNRELEASED ".0")
 
 # Append git characteristics to version
 if(DEFINED COLOBOT_VERSION_UNRELEASED)
